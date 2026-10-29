@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오르비스 캘린더</title>
+<meta name="description" content="구글 캘린더와 양방향으로 동기화되는 개인용 캘린더 앱 (Windows · Android)">
+<style>
+  :root { --navy:#1F3A93; --sky:#2E9BE6; --text:#2b2f36; --sub:#6b7280; --line:#e5e8ec; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;
+         color:var(--text); background:#fff; line-height:1.7; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
+  header { display:flex; align-items:center; gap:14px; margin-bottom:10px; }
+  h1 { font-size:26px; color:var(--navy); }
+  .tag { color:var(--sub); font-size:15px; margin-bottom:36px; }
+  h2 { font-size:18px; color:var(--navy); margin:32px 0 10px; }
+  ul { padding-left:20px; }
+  li { margin:6px 0; }
+  .card { border:1px solid var(--line); border-radius:10px; padding:18px 20px; margin-top:10px; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line);
+           color:var(--sub); font-size:13.5px; }
+  footer a { color:var(--navy); text-decoration:none; margin-right:14px; }
+  a { color:var(--navy); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+      <circle cx="22" cy="22" r="21" fill="#1F3A93"/>
+      <ellipse cx="22" cy="22" rx="14" ry="7.5" fill="none" stroke="#fff" stroke-width="2.2" transform="rotate(-24 22 22)"/>
+      <circle cx="33.5" cy="15.5" r="3.2" fill="#2E9BE6"/>
+    </svg>
+    <h1>오르비스 캘린더</h1>
+  </header>
+  <p class="tag">구글 캘린더와 양방향으로 동기화되는 개인용 캘린더 앱 · Windows / Android</p>
+
+  <h2>소개</h2>
+  <p>오르비스 캘린더는 개인이 사용하기 위해 만든 캘린더 애플리케이션입니다.
+     사용자의 구글 캘린더 일정을 한 달 화면에 빽빽하지만 읽기 좋게 보여주고,
+     일정 추가·수정·삭제가 휴대폰, PC, 구글 캘린더에 모두 즉시 반영됩니다.</p>
+
+  <h2>주요 기능</h2>
+  <div class="card">
+    <ul>
+      <li>월간 보기 중심의 빠르고 깔끔한 일정 확인</li>
+      <li>구글 캘린더 양방향 동기화 (여러 캘린더 표시 선택 가능)</li>
+      <li>일정 알림(리마인더)·반복 일정 설정</li>
+      <li>오프라인에서도 작성 가능, 온라인 연결 시 자동 반영</li>
+      <li>Windows 트레이 상주, Android 폴더블 넓은 화면 지원</li>
+    </ul>
+  </div>
+
+  <h2>데이터 처리</h2>
+  <p>이 앱은 개발자 서버 없이 동작합니다. 캘린더 데이터는 사용자의 기기와
+     사용자 본인의 구글 계정 사이에서만 오가며, 자세한 내용은
+     <a href="privacy.html">개인정보처리방침</a>을 참고하세요.</p>
+
+  <h2>문의</h2>
+  <p>이메일: hskim852@gmail.com</p>
+
+  <footer>
+    <a href="privacy.html">개인정보처리방침</a>
+    <a href="terms.html">서비스 약관</a>
+    <div>© 2026 오르비스 캘린더</div>
+  </footer>
+</div>
+</body>
+</html>
